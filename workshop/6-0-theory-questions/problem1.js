@@ -21,24 +21,29 @@ function reverseString(str) {
 // Expand each of the following and get the result of the expression
 // Q1
 square(decrement(square(decrement(3))));
-
-
-
-
+// 2
+// 4
+// 3
+9
 // Q2
 decrement(decrement(square(square(3))));
-
-
-
-
+// 9
+// 81
+// 80
+79
 // Q3
 duplicateString(reverseString("hello"));
-
+// ['h','e',...]
+// ['o','l', ...]
+// ['olleh']
+['olleh','olleh']
 
 
 
 // Q4
 reverseString(duplicateString(duplicateString("foo")));
-
+// 'foofoo'
+// 'foofoofoofoo';
+['oofoofoofoof'];
 
 

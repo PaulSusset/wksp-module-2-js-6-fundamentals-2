@@ -47,6 +47,7 @@ switch (time) {
 - `break` will _break_ out of the switch case.
 - Without a `break`, the following cases will also be evaluated.
 - `return` will stop the rest of the function from being evaluated.
+- if you omit break/return the switch will read everything below the first valid case.
 
 ---
 

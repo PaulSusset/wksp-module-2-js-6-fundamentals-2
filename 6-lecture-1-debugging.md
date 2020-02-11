@@ -100,9 +100,13 @@ _It's one of the most important parts of this course._
 
 ---
 
-- What is it?
+- What is it? 
+testing different environments (browsers, devices)
+manual testing (QA) changing the variables to check the outcomes in extraneous situations. 
 - Why do we do it?
+future-proofing your own code. by setting tests you validate that your app is doing what it should even if you aren't the one the one adding on to it
 - When do we do it?
+all the time
 
 _Let's talk about test-driven development a little._
 
@@ -111,3 +115,15 @@ _Let's talk about test-driven development a little._
 ### What is a test?
 
 ---
+<!-- example -->
+function sum(num1, num2) {
+    return num1 + num2;
+}
+<!-- A test -->
+function sumTest(x, y, z) {
+    return sum(x, y) ==== z;
+}
+<!-- Test case -->
+sumTest(5, 5, 10);
+
+important that the test function runs the testED function

@@ -7,15 +7,16 @@ let verifyEquals = require('../../assets/verify-equals');
 // If the string does not have a first character, return undefined.
 
 function f(str) {
-    
+    arr = str.split('');
+    return arr[arr.length-1];
 }
 
 // Step 2
 // We need 5 test cases. The first input is provided.
 // Don't forget to test all of the question parameters
 
-let inputs = ['max'];
-let outputs = ['x'];
+let inputs = ['max', 'paul', 'dani', 'scott', 'sharon'];
+let outputs = ['x', 'l', 'i', 't', 'n'];
 
 // Step 3
 // Run this file in the debugger.

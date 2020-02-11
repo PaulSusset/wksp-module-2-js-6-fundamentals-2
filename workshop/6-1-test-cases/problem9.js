@@ -13,12 +13,19 @@ let verifyEquals = require('../../assets/verify-equals');
 //    - A for loop might be helpful
 
 function f(str) {
-
+    arr = str.split(' ');
+    x = ''
+    for (i=0; i< arr.length; i++){
+        if (arr[i].length >= x.length){
+            x = arr[i]
+        }
+    }
+    return x;
 }
 
 // Test cases
-let inputs = [];
-let outputs = [];
+let inputs = ['hey hello morning', 'my name is Paul', 'two is plenty', 'bacon yum!!!', 'mornings are hard'];
+let outputs = ['morning', 'Paul', 'plenty', 'yum!!!', 'mornings'];
 
 // STOP -----------------------------------------------------------------
 // No code changes below. This is the actual test that will run your test cases and validate your function.
