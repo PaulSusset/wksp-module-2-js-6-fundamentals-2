@@ -18,8 +18,31 @@ is a variable in function, or method, definition.
 
 ```js
 // Example
+function greeting(names){
+    names.forEach(function(name){
+        console.log(`${name}! want some bacon?`);
+    })
+    
+}
+greeting(['Paul', 'Daniel'])
+
 
 ```
+Paul! want some bacon?
+Daniel! want some bacon?
+
+```js
+function greeting(name){
+    return names.map(function(name){
+        return `${name}! want some bacon?`;
+    })
+    
+}
+x = greeting(['Paul', 'Daniel'])
+console.log(x)
+```
+['Paul! want some bacon?',
+'Daniel! want some bacon?'}
 
 ---
 

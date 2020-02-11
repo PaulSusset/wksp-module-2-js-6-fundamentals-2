@@ -22,7 +22,7 @@ console.log(greeting);
 var greeting = 'Hello';
 
 // a. 'Hello'
-// b. undefined
+// b. undefined (answer)
 // c. Uncaught ReferenceError: greeting is not defined
 ```
 
@@ -39,7 +39,7 @@ const anotherGreeting = 'Good evening';
 
 // a. 'Good evening'
 // b. undefined
-// c. ReferenceError: can't access lexical declaration `anotherGreeting' before initialization
+// c. ReferenceError: can't access lexical declaration `anotherGreeting' before initialization (answer)
 ```
 
 ---
@@ -69,6 +69,7 @@ function greetMe() {
 greetMe();
 var yourName = 'Fred';
 ```
+'Hi undefined!'
 
 ---
 
